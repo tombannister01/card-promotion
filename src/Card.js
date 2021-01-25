@@ -14,7 +14,6 @@ function Card() {
   }
 
   useEffect(() => {
-    // replace with API call
     Axios.get('http://www.randomnumberapi.com/api/v1.0/random?min=1&max=10&count=1')
       .then(
         (res) =>
@@ -31,8 +30,9 @@ function Card() {
     cardClassName = 'playing-card-blank'
     return <div className="image-box">
       <img src="/Playing-card.png" alt="card" height="200" className={cardClassName} />
-      <p className="reward-amount">{rewardAmount}</p>
+      <h1 className="reward-amount"><span>£</span><span>{rewardAmount}</span></h1>
     </div>
+
 
   } else return (
     <div onClick={hideCard} className="image-box">
