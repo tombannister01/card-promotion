@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://oddslifenetstorage.blob.core.windows.net/casinobeats/2020/04/shutterstock_1504333019-e1588083267760.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {

@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.card-layout {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.playing-card {
+  margin-right: 10px;
+}
+
+.playing-card-blank {
+ opacity: 0.5;
+  
+}
+.image-box {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.reward-amount {
+  color: white;
+}
