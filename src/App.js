@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './Card'
 import Title from './Title'
+import TermsAndConditions from './TermsAndConditions'
 
 function App() {
 
@@ -8,12 +9,16 @@ function App() {
     <section className="title-section">
       <Title />
     </section>
-
-    <div className="card-layout">
-      <Card />
-      <Card />
-      <Card />
-    </div>
+    <section>
+      <div className="card-layout">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </section>
+    <section>
+      <TermsAndConditions />
+    </section>
   </>
   );
 }
